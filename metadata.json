@@ -1,0 +1,6 @@
+{
+  "name": "Super Over T20",
+  "description": "Super Over T20 live cricket sports gaming platform with real-time ball-by-ball action, server-authoritative timer, provably fair seed verification, ledger wallet, and comprehensive admin suite.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
