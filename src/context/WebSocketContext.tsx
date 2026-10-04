@@ -28,8 +28,7 @@ export const WebSocketProvider: React.FC<{ children: React.ReactNode }> = ({ chi
     }
 
     const protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
-    const host = window.location.host;
-    const wsUrl = `${protocol}//${host}/ws`;
+    const wsUrl = 'wss://super-over-t20-production.up.railway.app/ws';
 
     try {
       const ws = new WebSocket(wsUrl);
